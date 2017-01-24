@@ -159,6 +159,64 @@ ul {
 .margin-bottom-sidebar {
   margin-bottom: 30px;
 }
+.overlay::before {
+  background-color: rgba(25, 25, 25, 0.85);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.overlay1::before {
+  background-color: rgba(0, 0, 0, 0.96);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.overlay2::before {
+  background-color: rgba(255, 255, 255, .94);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bg-overlay {
+  background: url("../img/overaly.png");
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bg-overlay-grey {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.bg-overlay-grey:before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: rgba(42,42,42, 0.8);
+}
+
 .bg-overlay-medium {
   position: relative;
 }
@@ -5585,4 +5643,128 @@ body.mean-container #wrapper {
 }
 .footer-area-bottom p a:hover {
   color: #512da8;
+}
+
+
+/*=====================================================
+    SECTION FOOTER
+==========================================================*/
+
+#section-footer {
+  background: #111;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-content h2 {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer-social li a i {
+  color: #fff;
+  font-size: 25px;
+  line-height: 25px;
+  -webkit-transition: all .3s ease-in 0s;
+  -o-transition: all .3s ease-in 0s;
+  transition: all .3s ease-in 0s;
+}
+
+.footer-content h4 {
+  color: #eee;
+}
+
+.footer-social li a:hover i {
+  color: #fff;
+}
+
+/*=====================================================
+    SECTION CONTACT
+==========================================================*/
+
+#section-contact {
+  background: url("../img/bg/5.jpg") fixed 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.venue-info {
+  color: #fff;
+}
+
+.venue-info h2 {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.venue-info h4 {
+  color: #eee;
+  font-weight: normal!important;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.venue-info p {
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.venue-location {
+  color: #fff;
+}
+
+.venue-location i,
+.venue-info i {
+  font-size: 40px;
+  border: 2px solid#eee;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.venue-location h2 {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.venue-location p {
+  margin-bottom: 30px;
+}
+
+.venue-location a.info {
+  border: 2px solid#fff;
+  padding: 7px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/**
+ * commona
+ * ---------------------------------------------------------
+ */
+
+.site-header-fixed-top,
+.site-header-fixed-bottom {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.site-header-fixed-top {
+  top: 0;
+}
+
+.site-header-fixed-bottom {
+  bottom: 0;
+}
+
+.section-padding {
+  padding: 60px 0px;
 }
