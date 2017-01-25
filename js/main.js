@@ -171,16 +171,16 @@
     if ($('#googleMap').length) {
         var initialize = function () {
             var mapOptions = {
-                zoom: 15,
+                zoom: 17,
                 scrollwheel: false,
-                center: new google.maps.LatLng(-37.81618, 144.95692)
+                center: new google.maps.LatLng(40.806878, -73.964059)
             };
             var map = new google.maps.Map(document.getElementById("googleMap"),
                 mapOptions);
             var marker = new google.maps.Marker({
                 position: map.getCenter(),
                 animation: google.maps.Animation.BOUNCE,
-                icon: 'img/map-marker.png',
+                icon: 'img/mapmarker.png',
                 map: map
             });
         }
