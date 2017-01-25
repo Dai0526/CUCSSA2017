@@ -1,7 +1,7 @@
 <?php
 
-$EmailTo = "info@radiustheme.com";
-$Subject = "New Message Received";
+$EmailTo = "tf2377@columbia.edu";
+$Subject = "[CUCSSA2017]";
 
 $errorMSG = "";
 $name = $email = $message = $subject= null;
