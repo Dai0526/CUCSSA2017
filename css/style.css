@@ -180,15 +180,7 @@ ul {
   top: 0;
 }
 
-.bg-overlay {
-  background: url("../img/overaly.png");
-  bottom: 0;
-  content: "";
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+
 
 .bg-overlay-grey {
   position: relative;
@@ -6075,4 +6067,180 @@ body.mean-container #wrapper {
   -ms-transition: all 1s ease-out;
   -o-transition: all 1s ease-out;
   transition: all 1s ease-out;
+}
+
+
+/** 
+Team Page
+*/
+
+#main-banner {
+  background: url("../img/team/team_banner.jpg") fixed 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 600px;
+}
+
+.banner-slider {}
+
+.banner-main {
+  padding: 200px 0px 170px;
+}
+
+.overlay::before {
+  background-color: rgba(25, 25, 25, 0.85);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.overlay1::before {
+  background-color: rgba(0, 0, 0, 0.96);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.overlay2::before {
+  background-color: rgba(255, 255, 255, .94);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bg-overlay {
+  background: url("../img/overaly.png");
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.banner-main h3 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.banner-main h4 {
+  color: #eaeaea;
+  font-weight: 400;
+  width: 70%;
+  margin: 35px auto;
+  line-height: 28px;
+}
+
+.carousel-indicators {
+  bottom: 10%;
+}
+
+.banner-time{
+  border: 2px solid#fff;
+  background: #eee;
+  padding: 60px 50px;
+  margin-top: 140px;
+  border-radius: 15px;
+}
+.banner-time h2{
+  margin-top: 5px;
+  line-height: 60px;
+  font-family: "lato",sans-serif;
+}
+.banner-time h2 span{
+  display: block;
+  color: #ED1C24;
+  font-size: 70px;
+}
+.banner-time h4{
+  color: #333;
+  margin-bottom: 0px;
+}
+.banner-time p{
+  color: #444;
+}
+
+
+.lg-title {
+  font-size: 62px;
+  line-height: 74px;
+}
+
+/*/============================
+  SECTION BLOG
+===================================*/
+
+.download-wrap {
+  margin-bottom: 60px;
+  width: 75%;
+  padding-left: 0px;
+}
+
+.download-wrap h2,h3,h4 {
+  text-transform: none;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  color: #fff;
+}
+.download-wrap h2 {
+  font-size: 36px;
+}
+.download-wrap h3 {
+  font-size: 24px;
+}
+.download-wrap h4 {
+  font-size: 18px;
+}
+.download-wrap p {
+  line-height: 1.5;
+  margin: 0 0 20px 0;
+}
+
+
+.download-wrap a.btn {
+  margin-top: 10px;
+}
+
+.download-content {
+  margin-top: 40px;
+}
+
+.blog-info h4 {
+  margin-top: 25px;
+}
+
+.blog-info p {
+  margin: 20px 0px 30px;
+}
+
+.blogTime {
+  color: #fff;
+  font-weight: normal;
+  font-size: 18px;
+  padding-bottom: 8px;
+  border-bottom: 3px dashed #fff;
+}
+
+.blogTime span {
+  color: #444;
+}
+
+.read-more {
+  border: 1px solid#ddd;
+  padding: 10px 15px;
+  color: #444;
+  margin-top: 20px;
+  background: #eee;
 }
