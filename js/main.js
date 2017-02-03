@@ -173,6 +173,9 @@
             var mapOptions = {
                 zoom: 17,
                 scrollwheel: false,
+                navigationControl: false,
+                mapTypeControl: false,
+                scaleControl: false,
                 center: new google.maps.LatLng(40.806878, -73.964059)
             };
             var map = new google.maps.Map(document.getElementById("googleMap"),
