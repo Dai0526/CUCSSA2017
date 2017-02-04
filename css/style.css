@@ -2285,7 +2285,7 @@ body.mean-container #wrapper {
   }
 }
 .about-event-content2 {
-  margin-top: 130px;
+  margin-top: 0px;
 }
 .about-event-content2 p {
   padding-right: 30px;
@@ -2325,19 +2325,19 @@ body.mean-container #wrapper {
   text-align: center;
 }
 .about-event-project2 ul li:nth-child(1n) {
-  background: url(img/about/4.png);
+  background: url(../img/about/eggshell1.jpg);
   background-repeat: no-repeat;
 }
 .about-event-project2 ul li:nth-child(2n) {
-  background: url(img/about/5.png);
+  background: url(../img/about/eggshell2.jpg);
   background-repeat: no-repeat;
 }
 .about-event-project2 ul li:nth-child(3n) {
-  background: url(img/about/6.png);
+  background: url(../img/about/eggshell3.jpg);
   background-repeat: no-repeat;
 }
 .about-event-project2 ul li:nth-child(4n) {
-  background: url(img/about/7.png);
+  background: url(../img/about/eggshell4.jpg);
   background-repeat: no-repeat;
 }
 .about-event-project2 ul li h3 {
