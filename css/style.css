@@ -4388,13 +4388,13 @@ body.mean-container #wrapper {
   }
 }
 .sponsors-area1 .sponsors-inner-top h2 {
-  background: url(img/brand/title-back1.png);
+  background: url(../img/sponsor/title-back1.png);
   color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
 }
 .sponsors-area1 .sponsors-inner-bottom h2 {
-  background: url(img/brand/title-back2.png);
+  background: url(../img/sponsor/title-back1.png);
   color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
@@ -4428,13 +4428,13 @@ body.mean-container #wrapper {
   }
 }
 .sponsors-area2 .sponsors-inner-top h2 {
-  background: url(img/brand/title-back3.png);
+  background: url(../img/sponsor/title-back1.png);
   color: #222222;
   background-repeat: no-repeat;
   background-position: center;
 }
 .sponsors-area2 .sponsors-inner-bottom h2 {
-  background: url(img/brand/title-back4.png);
+  background: url(../img/sponsor/title-back1.png);
   color: #222222;
   background-repeat: no-repeat;
   background-position: center;
