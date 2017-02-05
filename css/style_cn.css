@@ -6099,7 +6099,7 @@ Team Page
 
 .banner-slider {}
 
-.banner-main {
+.banner-team {
   padding: 200px 0px 170px;
 }
 
@@ -6143,16 +6143,16 @@ Team Page
   top: 0;
 }
 
-.banner-main h3 {
+.banner-team h3 {
   color: #fff;
   font-weight: 700;
 }
 
-.banner-main h4 {
+.banner-team h4 {
   color: #eaeaea;
   font-weight: 400;
   width: 70%;
-  margin: 35px auto;
+  margin: 35px 0px;
   line-height: 28px;
 }
 
