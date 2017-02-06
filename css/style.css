@@ -6662,7 +6662,7 @@ Sponsorship page
 .banner-contact h3 {
   color: #fff;
   font-weight: 600;
-  margin: 140px 0 20px 0;
+  margin: 100px 0 20px 0;
 }
 
 .banner-contact h4 {
@@ -6671,6 +6671,7 @@ Sponsorship page
   width: 70%;
   margin: 10px 0px;
   line-height: 40px;
+  font-size: 14px;
 }
 
 .carousel-indicators {
