@@ -6686,3 +6686,95 @@ Sponsorship page
 }
 
 
+/**Conference bg part
+  total has 4 section
+*/
+#conference-banner1 {
+  background: url("../img/conference/panel/relation_banner.jpg") fixed 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+#conference-banner2 {
+  background: url("../img/conference/panel/tech_banner.jpg") fixed 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+#conference-banner3 {
+  background: url("../img/conference/panel/sus_banner.jpg") fixed 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+#conference-banner4 {
+  background: url("../img/conference/panel/culture_banner.jpg") fixed 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 350px;
+}
+
+.conference-main {
+  padding: 100px 0px 100px;
+}
+
+.overlay::before {
+  background-color: rgba(25, 25, 25, 0.85);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.overlay1::before {
+  background-color: rgba(0, 0, 0, 0.96);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.overlay2::before {
+  background-color: rgba(255, 255, 255, .94);
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.bg-overlay {
+  background: url("../img/overaly.png");
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.banner-conference h3 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.banner-conference h4 {
+  color: #eaeaea;
+  font-weight: 400;
+  width: 70%;
+  margin: 35px 0px;
+  line-height: 28px;
+}
