@@ -6589,10 +6589,11 @@ Sponsorship page
   top: 0;
 }
 
+
 .banner-guests h3 {
   color: #fff;
   font-weight: 600;
-  margin: 140px 0 20px 0;
+  margin: 120px 0 20px 0;
 }
 
 .banner-guests h4 {
@@ -6600,7 +6601,7 @@ Sponsorship page
   font-weight: 400;
   width: 70%;
   margin: 10px 0px;
-  line-height: 40px;
+  line-height: 20px;
 }
 
 .carousel-indicators {
