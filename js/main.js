@@ -176,7 +176,7 @@
                 navigationControl: false,
                 mapTypeControl: false,
                 scaleControl: false,
-                center: new google.maps.LatLng(40.806878, -73.964059)
+                center: new google.maps.LatLng(40.808201, -73.961855)
             };
             var map = new google.maps.Map(document.getElementById("googleMap"),
                 mapOptions);
