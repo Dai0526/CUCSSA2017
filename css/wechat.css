@@ -328,7 +328,7 @@ span.tz_text_hover_speaker {
     cursor: pointer;
 }
 .tz_our_speakers:hover .tz_our_speakers_img:before {
-    background: rgba(110, 98, 98, 0.5);
+    background: rgba(196, 216, 226, 0.5);
     z-index: 1;
     transition: all 0.4s linear 0s;
     -moz-transition: all 0.4s linear 0s;
