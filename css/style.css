@@ -4974,13 +4974,13 @@ body.mean-container #wrapper {
   margin-right: 10px;
 }
 .price-table-box1:nth-child(1n) .price-table-box-inner {
-  background: #512da8;
+  background: #9bddff;
 }
 .price-table-box1:nth-child(2n) .price-table-box-inner {
-  background: #1e88e5;
+  background: #9BBBFF;
 }
 .price-table-box1:nth-child(3n) .price-table-box-inner {
-  background: #e91e63;
+  background: #9bddff;
 }
 .price-table-box1:hover .price-table-box-inner {
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.75);
