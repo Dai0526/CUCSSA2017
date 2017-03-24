@@ -36,9 +36,9 @@
 @import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,400,500,700);
 html,
 body {
-  font-size: 16px;
+   font-size: 16px;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei",'Roboto', sans-serif;
   line-height: 1.5;
   font-weight: 400;
   vertical-align: baseline;
@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Hiragino Sans GB", "Microsoft YaHei",'Oswald', sans-serif;
   line-height: 1.5;
   font-weight: 600;
   margin: 0 0 20px 0;
@@ -2394,6 +2394,9 @@ body.mean-container #wrapper {
   font-weight: 400;
   color: #ffffff;
 }
+.about-event-grey-title h1,h2{
+  color: #A9A9A9;
+}
 
 /*=======================================================================
 [07] Register Area
@@ -2512,6 +2515,9 @@ body.mean-container #wrapper {
     display: none;
   }
 }
+
+
+
 
 /*=======================================================================
 [08] Client Area
