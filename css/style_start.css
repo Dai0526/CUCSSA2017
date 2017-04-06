@@ -7199,3 +7199,10 @@ Sponsorship page
   margin: 35px 0px;
   line-height: 28px;
 }
+
+#letter 
+p{
+  line-height: 1.5;
+  margin: 0 210px 20px 210px;
+}
+
