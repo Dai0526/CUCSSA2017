@@ -7192,3 +7192,146 @@ Sponsorship page
   margin: 35px 0px;
   line-height: 28px;
 }
+
+
+/*index speaker show cases*/
+.speakers-show-area {
+  background: #ffffff;
+  padding: 118px 0 120px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .speakers-show-area {
+    padding: 108px 0 110px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .speakers-show-area {
+    padding: 98px 0 100px;
+  }
+}
+@media (min-width: 480px) and (max-width: 767px) {
+  .speakers-show-area {
+    padding: 88px 0 90px;
+  }
+}
+@media (min-width: 321px) and (max-width: 479px) {
+  .speakers-show-area {
+    padding: 78px 0 80px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .speakers-show-area {
+    padding: 68px 0 70px;
+  }
+}
+.speakers-show-area .speakers-show-wrapper-area {
+  margin: 0 -5px;
+}
+.speakers-show-area .speakers-show-wrapper-area > div {
+  padding: 0 5px;
+}
+@media only screen and (max-width: 480px) {
+  .speakers-show-area .speakers-show-wrapper-area .col-xs-6 {
+    width: 100%;
+  }
+}
+.speakers-show-area .speakers-show-box {
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 991px) {
+  .speakers-show-area .speakers-show-box a img {
+    width: 100%;
+  }
+}
+.speakers-show-area .speakers-show-box .speakers-show-box-content {
+  padding: 25px 0 30px;
+  background: #ffffff;
+  text-align: center;
+  position: relative;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.speakers-show-area .speakers-show-box .speakers-show-box-content .speakers-show-read-more {
+  position: absolute;
+  top: -25px;
+  right: 5%;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.speakers-show-area .speakers-show-box .speakers-show-box-content .speakers-show-read-more a {
+  color: #ffffff;
+  font-size: 20px;
+  background: #e91e63;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  display: block;
+}
+.speakers-show-area .speakers-show-box .speakers-show-box-content .speakers-show-read-more a i {
+  color: #ffffff;
+}
+.speakers-show-area .speakers-show-box .speakers-show-box-content h3 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+@media (min-width: 321px) and (max-width: 479px) {
+  .speakers-show-area .speakers-show-box .speakers-show-box-content h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .speakers-show-area .speakers-show-box .speakers-show-box-content h3 {
+    font-size: 18px;
+  }
+}
+.speakers-show-area .speakers-show-box .speakers-show-box-content h3 a {
+  color: #222222;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.speakers-show-area .speakers-show-box .speakers-show-box-content span {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.speakers-show-area .speakers-show-box:hover .speakers-show-box-content {
+  background: #512da8;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -ms-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+.speakers-show-area .speakers-show-box:hover .speakers-show-box-content .speakers-show-read-more {
+  right: 40%;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .speakers-show-area .speakers-show-box:hover .speakers-show-box-content .speakers-show-read-more {
+    right: 38%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .speakers-show-area .speakers-show-box:hover .speakers-show-box-content .speakers-show-read-more {
+    right: 43%;
+  }
+}
+.speakers-show-area .speakers-show-box:hover .speakers-show-box-content h3 a {
+  color: #ffffff;
+}
+.speakers-show-area .speakers-show-box:hover .speakers-show-box-content span {
+  color: #ffffff;
+}
